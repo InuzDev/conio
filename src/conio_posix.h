@@ -22,7 +22,7 @@ enum COLORS {
    LIGHTMAGENTA,
    YELLOW,
    WHITE
-};
+}; // How we can do this for POSIX, Like actually.
 
 #define BLINK 128
 
@@ -40,7 +40,7 @@ void gotoxy(int x, int y);
 void textcolor(int color);
 void textbackground(int color);
 
-// Setting specific color
+void textattr(int attr);
 
 #ifdef __cplusplus
 }
