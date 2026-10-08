@@ -22,8 +22,8 @@ Clear to end of line, it blanks from the cursor to the right edge of the current
 
 Clear an entire line/row, instead than starting from the cursor's position.
 
-## Deprecated / Replaced functions.
+## Deprecated functions [They still are included]
 
 ### `void puttext(int left, int top, int right, int bottom, int char *str);`
 
-Used to set a text in an specific position.
+Used to set a text in an specific position. We could just printf the string, YET included to avoid old code being broken.
